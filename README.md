@@ -2,37 +2,57 @@
 
 A modern, professional portfolio website built with Flask and featuring a sleek glass morphism design.
 
-## ✨ Features
+## 🌐 **Live Website Preview**
 
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
-- **Professional Styling**: Modern glass morphism effects with gradient backgrounds
-- **Clean Navigation**: Smooth transitions between all portfolio sections
-- **Project Showcase**: Detailed project descriptions with technology stacks
-- **Skills Display**: Organized technical skills in categorized sections
-- **Education & Certifications**: Professional presentation of qualifications
+### 📱 **Portfolio Pages**
 
-## 🛠️ Technology Stack
+| Page | Description | Direct Link |
+|------|-------------|-------------|
+| 🏠 **Home** | Professional landing page with glass morphism design | [View Home Page](frontend/index.html) |
+| 👨‍💻 **About Me** | Personal introduction and professional background | [View About Page](frontend/about.html) |
+| 🛠️ **Technical Skills** | Comprehensive technical skills showcase | [View Skills Page](frontend/technicalSkills.html) |
+| 🎓 **Education** | Educational background and qualifications | [View Education Page](frontend/education.html) |
+| 💼 **Projects** | Portfolio of completed projects and applications | [View Projects Page](frontend/projects.html) |
+| 🏆 **Certifications** | Professional certifications and achievements | [View Certifications Page](frontend/certifications.html) |
+
+## ✨ **Quick Navigation**
+
+- 🏠 **[Home](frontend/index.html)** - Landing page
+- 👨‍💻 **[About Me](frontend/about.html)** - Personal introduction
+- 🛠️ **[Technical Skills](frontend/technicalSkills.html)** - Skills showcase
+- 🎓 **[Education](frontend/education.html)** - Educational background
+- 💼 **[Projects](frontend/projects.html)** - Project portfolio
+- 🏆 **[Certifications](frontend/certifications.html)** - Professional certifications
+
+## 🎨 **Design Features**
+
+- **Glass Morphism Effects** - Modern frosted glass design
+- **Professional Gradients** - Beautiful color schemes
+- **Responsive Layout** - Works on all devices
+- **Smooth Animations** - Hover effects and transitions
+- **Clean Typography** - Professional, readable fonts
+
+## 🛠️ **Technology Stack**
 
 - **Backend**: Python Flask
 - **Frontend**: HTML5, CSS3
-- **Styling**: Custom CSS with glass morphism effects
+- **Styling**: Custom CSS with glass morphism
 - **Server**: Flask development server
 
-## 📁 Project Structure
+## 📁 **Project Structure**
 
 ```
 Portfolio/
 ├── backen/
-│   └── backend.py          # Flask application
+│   └── backend.py              # Flask application
 ├── frontend/
-│   ├── html pages/         # HTML templates
-│   │   ├── Home.html
-│   │   ├── about.html
-│   │   ├── technicalSkills.html
-│   │   ├── Education.html
-│   │   ├── Projects.html
-│   │   └── Certifications.html
-│   └── style/              # CSS stylesheets
+│   ├── index.html             # Home page
+│   ├── about.html             # About Me page
+│   ├── technicalSkills.html   # Technical Skills page
+│   ├── education.html         # Education page
+│   ├── projects.html          # Projects page
+│   ├── certifications.html    # Certifications page
+│   └── style/                 # CSS stylesheets
 │       ├── Home.css
 │       ├── about.css
 │       ├── technicalSkills.css
@@ -42,10 +62,9 @@ Portfolio/
 └── README.md
 ```
 
-## 🚀 Getting Started
+## 🚀 **Getting Started**
 
 ### Prerequisites
-
 - Python 3.x
 - pip3
 
@@ -53,8 +72,8 @@ Portfolio/
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
-   cd Portfolio
+   git clone https://github.com/Heisenberg2005-glich/Personal-Portfolio.git
+   cd Personal-Portfolio
    ```
 
 2. **Install dependencies**
@@ -69,63 +88,45 @@ Portfolio/
    ```
 
 4. **Open your browser**
-   Navigate to `http://localhost:5003/`
+   Navigate to `http://localhost:5004/`
 
-## 📱 Portfolio Sections
+## 💼 **Featured Projects**
 
-### 🏠 Home
-- Professional landing page with glass morphism design
-- Navigation to all portfolio sections
-- Modern gradient background
+### 🏦 **SecureBank – Online Banking Management System**
+- **Technologies**: Django, Python, PostgreSQL, HTML/CSS, JavaScript
+- **Features**: User authentication, account management, transaction history
+- **Description**: A secure banking application with modern UI and robust security features
 
-### 👨‍💻 About Me
-- Personal introduction and background
-- Professional summary
-- Career objectives
+### 🤖 **TradeSmart – AI-Powered Trading Platform**
+- **Technologies**: Python, Machine Learning, Flask, React
+- **Features**: AI predictions, portfolio management, real-time data
+- **Description**: Intelligent trading platform with machine learning algorithms
 
-### 🛠️ Technical Skills
+### 💰 **ExpenseEase – Personal Finance Tracker**
+- **Technologies**: Python, Flask, SQLite, Chart.js
+- **Features**: Expense tracking, budget management, financial reports
+- **Description**: Simple and effective personal finance management tool
+
+## 🛠️ **Technical Skills**
+
 - **Programming Languages**: Python, JavaScript, Java, C++
 - **Web Development**: HTML, CSS, Flask, Django
 - **Databases**: PostgreSQL, MySQL, SQLite
 - **Tools & Technologies**: Git, Docker, AWS, Linux
 
-### 🎓 Education
+## 🎓 **Education**
+
 - **Bachelor's Degree**: Computer Science
-- **Institution**: [Your University]
 - **Skills Learned**: Software development, algorithms, data structures
 - **Relevant Coursework**: Web development, database systems, software engineering
 
-### 💼 Projects
+## 🏆 **Certifications**
 
-#### SecureBank – Online Banking Management System
-- **Technologies**: Django, Python, PostgreSQL, HTML/CSS, JavaScript
-- **Features**: User authentication, account management, transaction history
-- **Description**: A secure banking application with modern UI and robust security features
-
-#### TradeSmart – AI-Powered Trading Platform
-- **Technologies**: Python, Machine Learning, Flask, React
-- **Features**: AI predictions, portfolio management, real-time data
-- **Description**: Intelligent trading platform with machine learning algorithms
-
-#### ExpenseEase – Personal Finance Tracker
-- **Technologies**: Python, Flask, SQLite, Chart.js
-- **Features**: Expense tracking, budget management, financial reports
-- **Description**: Simple and effective personal finance management tool
-
-### 🏆 Certifications
 - **Python Programming**: Advanced Python development skills
 - **Web Development**: Full-stack web development expertise
 - **Database Management**: SQL and database design proficiency
 
-## 🎨 Design Features
-
-- **Glass Morphism**: Modern frosted glass effects
-- **Gradient Backgrounds**: Professional color schemes
-- **Responsive Grid**: Adaptive layouts for all devices
-- **Smooth Animations**: Hover effects and transitions
-- **Professional Typography**: Clean, readable fonts
-
-## 🔧 Development
+## 🔧 **Development**
 
 ### Running in Development Mode
 
@@ -134,24 +135,24 @@ cd backen
 python3 backend.py
 ```
 
-The application will run on `http://localhost:5003/` with debug mode enabled.
+The application will run on `http://localhost:5004/` with debug mode enabled.
 
 ### Adding New Pages
 
-1. Create HTML file in `frontend/html pages/`
+1. Create HTML file in `frontend/`
 2. Create CSS file in `frontend/style/`
 3. Add route in `backen/backend.py`
 4. Update navigation links
 
-## 📄 License
+## 📄 **License**
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🤝 Contributing
+## 🤝 **Contributing**
 
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
 
-## 📞 Contact
+## 📞 **Contact**
 
 - **Name**: [Your Name]
 - **Email**: [your.email@example.com]
@@ -161,3 +162,15 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ---
 
 ⭐ **Star this repository if you found it helpful!**
+
+## 🚀 **GitHub Pages Setup**
+
+To deploy this portfolio on GitHub Pages:
+
+1. **Enable GitHub Pages** in repository settings
+2. **Select source**: Deploy from a branch
+3. **Choose branch**: main
+4. **Select folder**: / (root)
+5. **Your site will be live at**: `https://heisenberg2005-glich.github.io/Personal-Portfolio/`
+
+**Note**: For GitHub Pages, you'll need to create static HTML versions of your pages (without Flask routes).
