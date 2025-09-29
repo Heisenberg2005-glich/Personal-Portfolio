@@ -15,27 +15,27 @@ CORS(app)
 # Define routes
 @app.route("/")
 def home():
-    return send_from_directory('../frontend/html pages', 'Home.html')
+    return send_from_directory('../frontend', 'index.html')
 
 @app.route("/about")
 def about():
-    return send_from_directory('../frontend/html pages', 'about.html')
+    return send_from_directory('../frontend', 'about.html')
 
 @app.route("/technicalSkills")
 def technicalSkills():
-    return send_from_directory('../frontend/html pages', 'technicalSkills.html')
+    return send_from_directory('../frontend', 'technicalSkills.html')
 
 @app.route("/projects")
 def projects():
-    return send_from_directory('../frontend/html pages', 'Projects.html')
+    return send_from_directory('../frontend', 'projects.html')
 
 @app.route("/certifications")
 def certifications():
-    return send_from_directory('../frontend/html pages', 'Certifications.html')
+    return send_from_directory('../frontend', 'certifications.html')
 
 @app.route("/education")
 def education():
-    return send_from_directory('../frontend/html pages', 'Education.html')
+    return send_from_directory('../frontend', 'education.html')
 
 @app.route("/workExperience")
 def work_experience():
@@ -60,6 +60,6 @@ def serve_js(filename):
 
 # Run the Flask app
 if __name__ == "__main__":
-    app.run(debug=True, port=5003)
+    app.run(debug=True, port=5004)
      
 
